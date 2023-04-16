@@ -6,11 +6,19 @@ const wordCounter = (value) => {
 
   if (value) {
     // COMPLETE THE LOGIC 
+    let value = textarea.value;
+    let wordsTrimmed = value.replace(/\s+/g, " ").trim();
+    let splitWords = wordsTrimmed.split(" ");
 
-    wordCount.innerHTML = `Word Count: 0 `; 
+    console.log(splitWords);
+
+    let numberOfWords = splitWords.length
+
+    wordCount.innerHTML = `Word Count: ${numberOfWords}`; 
+    
   } else {
     // if the value is empty, set the error message value to "Please input text"
-    error.innerHTML = "Please input text"; // UPDATE THIS
+    error.innerHTML = ""; // UPDATE THIS
   }
 }
 
