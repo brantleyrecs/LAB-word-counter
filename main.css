@@ -1,0 +1,23 @@
+body {
+  width: 90%;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  grid-row: 20;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20em;
+}
+
+::placeholder {
+  color: blue;
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+}
