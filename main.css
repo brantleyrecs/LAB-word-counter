@@ -9,6 +9,8 @@ textarea {
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   height: 20em;
+
+margin: 10px;
 }
 
 ::placeholder {
